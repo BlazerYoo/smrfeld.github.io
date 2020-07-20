@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>smrfeld</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="https://avatars1.githubusercontent.com/u/16356671?v=4" type="image/png"></head>
+
+  <body>
+    <div id="loading_black">
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    </div>
+    <div id="profile_background"></div>
+    <div id="profile">
+      <div id="profile_img" onclick="location.href='index.html';" style="background: url(https://avatars1.githubusercontent.com/u/16356671?v=4) center;"></div>
+      <div id="username"><span style="display:block;">Oliver K. Ernst</span><a href="https://github.com/smrfeld">@smrfeld</a></div>
+      <div id="userbio" style="display: none;">undefined</div>
+      <div id="about">
+        <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+        <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+        <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="Oliver-ernst.com">Oliver-ernst.com</a></span>
+        <span style="display:none;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; null</span>
+        <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+        <div class="socials">
+        <span style="display:none !important;"><a href="https://www.twitter.com/null" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+        <span style="display:none !important;"><a href="https://www.dribbble.com/null" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
+        <span style="display:none !important;"><a href="https://www.linkedin.com/in/null/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+        <span style="display:none !important;"><a href="https://www.medium.com/@null/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+        </div>
+        </div>
+    </div>
+    <div id="display">
+      <div><h1 style="position: relative">Papers</h1><div class="projects" id="page_0">
+            <a href="https://arxiv.org/abs/1905.12122" style="width: 100% !important;">
+            <section>
+                <div class="section_title">2019 arXiv - Deep Learning Moment Closure Approximations using Dynamic Boltzmann Distributions</div>
+                <div class="about_section">
+                </div>
+                <div class="bottom_section">
+                </div>
+            </section>
+            </a>
+            <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.063315" style="width: 100% !important;">
+            <section>
+                <div class="section_title">2019 Phys Rev E - Learning moment closure in reaction-diffusion systems with spatial dynamic Boltzmann distributions</div>
+                <div class="about_section">
+                </div>
+                <div class="bottom_section">
+                </div>
+            </section>
+            </a>
+            <a href="https://arxiv.org/abs/1803.01063" style="width: 100% !important;">
+            <section>
+                <div class="section_title">2018 J Chem Phys - Learning Dynamic Boltzmann Distributions as Reduced Models of Spatial Chemical Kinetics </div>
+                <div class="about_section">
+                </div>
+                <div class="bottom_section">
+                </div>
+            </section>
+            </a>
+            <a href="http://dx.doi.org/10.1088/0266-5611/30/11/114019" style="width: 100% !important;">
+            <section>
+                <div class="section_title">2014 Inverse problems - Dynamic updating of numerical model discrepancy using sequential sampling</div>
+                <div class="about_section">
+                </div>
+                <div class="bottom_section">
+                </div>
+            </section>
+            </a></div></div><div id="footer">
+        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+        <br>
+        <a href="https://github.com/smrfeld" target="_blank">remixed off-world by an e.t.</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        document.getElementById("loading_black").classList.add("animated");
+        document.getElementById("loading_black").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+          document.getElementById("loading_black").classList.remove("animated");
+          document.getElementById("loading_black").classList.remove("fadeOut");
+          document.getElementById("loading_black").style.display = "none";
+        }, 800);
+      }, 1500);
+    </script>
+  
+
+<script>const page_0 = new MagicGrid({
+      container: "#page_0",
+      animate: false,
+      gutter: 30, // default gutter size
+      static: true,
+      useMin: false,
+      maxColumns: 1,
+      useTransform: true
+    });$("document").ready(() => {page_0.listen();});</script></body></html>

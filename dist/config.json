@@ -1,0 +1,117 @@
+[
+ {
+  "includeFork": false,
+  "includeSocial": false,
+  "types": [
+   "owner"
+  ],
+  "twitter": null,
+  "linkedin": null,
+  "medium": null,
+  "dribbble": null,
+  "pages": [
+   {
+    "name": "Papers",
+    "ID": "page_0",
+    "entries": [
+     {
+      "ID": "page_0_2",
+      "name": "2019 arXiv - Deep Learning Moment Closure Approximations using Dynamic Boltzmann Distributions",
+      "url": "https://arxiv.org/abs/1905.12122"
+     },
+     {
+      "ID": "page_0_3",
+      "name": "2019 Phys Rev E - Learning moment closure in reaction-diffusion systems with spatial dynamic Boltzmann distributions",
+      "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.063315"
+     },
+     {
+      "ID": "page_0_4",
+      "name": "2018 J Chem Phys - Learning Dynamic Boltzmann Distributions as Reduced Models of Spatial Chemical Kinetics ",
+      "url": "https://arxiv.org/abs/1803.01063"
+     },
+     {
+      "ID": "page_0_5",
+      "name": "2014 Inverse problems - Dynamic updating of numerical model discrepancy using sequential sampling",
+      "url": "http://dx.doi.org/10.1088/0266-5611/30/11/114019"
+     }
+    ],
+    "is_external": false,
+    "external_url": ""
+   },
+   {
+    "name": "Code",
+    "ID": "page_1",
+    "entries": [],
+    "is_external": false,
+    "external_url": ""
+   },
+   {
+    "name": "Watt.fit",
+    "ID": "page_2",
+    "entries": [],
+    "is_external": true,
+    "external_url": "https://watt.fit"
+   },
+   {
+    "name": "Practical Coding",
+    "ID": "page_3",
+    "entries": [],
+    "is_external": true,
+    "external_url": "https://medium.com/practical-coding"
+   },
+   {
+    "name": "Wolfram demos",
+    "ID": "page_4",
+    "entries": [
+     {
+      "ID": "page_4_5",
+      "name": "electrodiffusion of ions across a neural cell membrane",
+      "url": "http://demonstrations.wolfram.com/ElectrodiffusionOfIonsAcrossANeuralCellMembrane/"
+     },
+     {
+      "ID": "page_4_6",
+      "name": "Gillespie's stochastic simulation algorithm for chemical reactions",
+      "url": "http://demonstrations.wolfram.com/GillespiesStochasticSimulationAlgorithmForChemicalReactions/"
+     },
+     {
+      "ID": "page_4_7",
+      "name": "Picard's method for approximating solutions to ordinary differential equations",
+      "url": "http://demonstrations.wolfram.com/PicardsMethodForOrdinaryDifferentialEquations/"
+     },
+     {
+      "ID": "page_4_8",
+      "name": "sampling a distribution using slice sampling",
+      "url": "http://demonstrations.wolfram.com/DistributionsUsingSliceSampling/"
+     },
+     {
+      "ID": "page_4_9",
+      "name": "the Hodgkin-Huxley experiment",
+      "url": "http://demonstrations.wolfram.com/TheHodgkinHuxleyExperimentOnNeuronConductance/"
+     },
+     {
+      "ID": "page_4_10",
+      "name": "action potential propagation along myelinated axons",
+      "url": "http://demonstrations.wolfram.com/ActionPotentialPropagationAlongMyelinatedAxons/"
+     },
+     {
+      "ID": "page_4_11",
+      "name": "object tracking using the Kalman filter",
+      "url": "http://demonstrations.wolfram.com/TrackingAnObjectInSpaceUsingTheKalmanFilter/"
+     },
+     {
+      "ID": "page_4_12",
+      "name": "feedforward and feedback neural networks",
+      "url": "http://demonstrations.wolfram.com/FeedforwardAndFeedbackControlInNeuralNetworks/"
+     }
+    ],
+    "is_external": false,
+    "external_url": ""
+   }
+  ],
+  "background": "hawaii.jpeg",
+  "username": "smrfeld",
+  "name": "Oliver K. Ernst",
+  "userimg": "https://avatars1.githubusercontent.com/u/16356671?v=4",
+  "theme": "dark"
+ }
+]
