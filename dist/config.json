@@ -106,6 +106,20 @@
     ],
     "is_external": false,
     "external_url": ""
+   },
+   {
+    "name": "The Masked Manual",
+    "ID": "page_5",
+    "entries": [],
+    "is_external": true,
+    "external_url": "http://the-masked-manual.herokuapp.com"
+   },
+   {
+    "name": "What's my vote worth?",
+    "ID": "page_6",
+    "entries": [],
+    "is_external": true,
+    "external_url": "https://whats-my-vote-worth.herokuapp.com"
    }
   ],
   "background": "hawaii.jpeg",
